@@ -1,0 +1,121 @@
+/*Making the body come a bit to the right*/
+.bodyWidth {
+	padding-left: 40px;
+	width:75%;
+	/*width:50%;*/
+}
+/*making my name align with the body*/
+.navbar-header {
+	padding-left: 40px;
+}
+/*Making my name look bigger*/
+.navbar-brand {
+	width:300px;
+	font-size: 40px;
+}
+/*Making my contact links bigger*/
+#bs-example-navbar-collapse-1{
+	/*position: relative;*/
+	font-size: 20px;
+	/*left:-855px;*/
+}
+/*making the About me come a bit to the right*/
+h2 {
+	padding-left: 10px;
+	font-size: 40px;
+	color:#777;
+}
+/*making my contact section aligh properly*/
+.list-group{
+	width:270px;
+	position: absolute;
+	right:1%;
+	top:8%;
+	background-color: #eee;
+	text-align: center;
+}
+/*making my footer text center aligned*/
+.panel-footer{
+	position: absolute;
+	text-align: center;
+	bottom:0%;
+	width:100%;
+	background-color: #101010;
+	color:#777;
+}
+/*Format looks like this on 980px*/
+@media screen and (max-width: 980px) {
+	.wrapper{
+			max-width: 800px;
+		}
+	.bodyWidth {
+			width:75%;
+		}
+	.list-group{
+			width:270px;
+			position: relative;
+			left:620px;
+			bottom: 850px;
+			background-color: #eee;
+			text-align: center;
+		}
+		.panel-footer{
+			position: absolute;
+			text-align: center;
+			bottom:-40%;
+			width:100%;
+			background-color: #101010;
+			color:#777;
+}
+}
+/*Format looks like this on 768px*/
+@media screen and (max-width: 768px) {
+	.wrapper{
+			max-width: 420px;
+		}
+	.bodyWidth {
+			width:75%;
+		}
+	.list-group{
+			width:270px;
+			position: relative;
+			left:330px;
+			bottom: 1505px;
+			background-color: #eee;
+			text-align: center;
+		}
+	.panel-footer{
+			position: absolute;
+			text-align: center;
+			bottom:-107%;
+			width:100%;
+			background-color: #101010;
+			color:#777;
+}
+}
+/*Format looks like this on 640px*/
+@media screen and (max-width: 640px) {
+		.wrapper{
+		max-width: 350px;
+	}
+
+	.bodyWidth {
+			width:75%;
+		}
+	.list-group{
+			width:270px;
+			position: relative;
+			left:300px;
+			bottom: 1895px;
+			background-color: #eee;
+			text-align: center;
+		}
+	.panel-footer{
+			position: absolute;
+			text-align: center;
+			bottom:-165%;
+			width:100%;
+			background-color: #101010;
+			color:#777;
+}
+}
